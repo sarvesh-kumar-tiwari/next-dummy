@@ -14,7 +14,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     <h1>Welcome To Application</h1>
+      <section class="portfolio">
+        <div class="project">
+          <img src="project1.jpg" alt="Project 1"/>
+          <h2>Project 1</h2>
+          <p>Description of Project 1</p>
+          <a href="#">View Project</a>
+        </div>
+        
+        <div class="project">
+          <img src="project2.jpg" alt="Project 2"/>
+          <h2>Project 2</h2>
+          <p>Description of Project 2</p>
+          <a href="#">View Project</a>
+        </div>
+      </section>
     </>
   );
 }
